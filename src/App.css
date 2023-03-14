@@ -36,3 +36,33 @@
     transform: rotate(360deg);
   }
 }
+
+
+body{
+    background-image: linear-gradient(to bottom right, rgba(101, 0, 0), rgba(0, 0, 0));
+    background-size: cover;  
+    background-repeat:no-repeat ;
+    height: auto;  
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ body::-webkit-scrollbar{
+  width: 1vw;
+ } 
+ body::-webkit-scrollbar-track{
+  background-color: rgba(101, 0, 0);
+
+ }
+ body::-webkit-scrollbar-thumb{
+  background-color: rgb(9, 11, 11);
+ }
+
+ .waitlist h2{
+  border-radius: 1vw;
+  padding: 1.4vh 0;
+  padding-left: 2vw;
+  width: 52vw;
+  color: rgb(9, 11, 11);
+  background: rgb(241, 206, 155);
+
+ }
